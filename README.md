@@ -88,12 +88,6 @@ plane2see/
 ### Key Dependencies
 
 Install the required packages:
-
-```bash
-pip install praw transformers torch bertopic scikit-learn pandas numpy matplotlib seaborn umap-learn hdbscan
-```
-
-**Or be more general** about installation:
 ```markdown
 ### Requirements
 Install the following dependencies using pip:
