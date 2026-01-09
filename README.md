@@ -140,6 +140,7 @@ Install the following dependencies using pip:
 ## Acknowledgments
 
 - **Dr. Miguel Remolona** - Class adviser and professor for DS 397 Natural Language Processing, for his invaluable guidance, mentorship, and support throughout this project
+- Artificial Intelligence Program, College of Engineering, University of the Philippines, Diliman, Quezon City - for providing the academic framework and resources that supported this research
 - University of the Philippines Diliman School of Statistics
 - Reddit API for data access
 - Hugging Face for pre-trained transformer models
