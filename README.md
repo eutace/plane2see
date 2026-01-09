@@ -84,12 +84,6 @@ plane2see/
     └── reports/               # Final analysis reports
 ```
 
-## Installation & Usage
-
-### Requirements
-```bash
-pip install -r requirements.txt
-```
 
 ### Key Dependencies
 
