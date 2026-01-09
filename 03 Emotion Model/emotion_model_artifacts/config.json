@@ -1,0 +1,43 @@
+{
+  "model_name": "bhadresh-savani/roberta-base-emotion",
+  "embedding_dim": 768,
+  "max_seq_length": 128,
+  "num_classes": 6,
+  "emotion_labels": {
+    "0": "sadness",
+    "1": "joy",
+    "2": "love",
+    "3": "anger",
+    "4": "fear",
+    "5": "surprise"
+  },
+  "label_to_emotion": {
+    "0": "sadness",
+    "1": "joy",
+    "2": "love",
+    "3": "anger",
+    "4": "fear",
+    "5": "surprise"
+  },
+  "emotion_to_label": {
+    "sadness": 0,
+    "joy": 1,
+    "love": 2,
+    "anger": 3,
+    "fear": 4,
+    "surprise": 5
+  },
+  "training_metrics": {
+    "accuracy_train": 0.9831875,
+    "accuracy_val": 0.9315,
+    "accuracy_test": 0.9265,
+    "balanced_accuracy_train": 0.9870293710088478,
+    "balanced_accuracy_val": 0.9190739645253166,
+    "balanced_accuracy_test": 0.9062149420557377,
+    "f1_macro_test": 0.8878266002447028
+  },
+  "dataset": "dair-ai/emotion",
+  "train_samples": 16000,
+  "val_samples": 2000,
+  "test_samples": 2000
+}

@@ -1,0 +1,24 @@
+{
+  "model_name": "sileod/deberta-v3-base-tasksource-toxicity",
+  "embedding_dim": 768,
+  "max_seq_length": 256,
+  "num_classes": 5,
+  "class_labels": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "class_descriptions": {
+    "1": "Non-toxic / Neutral",
+    "2": "Mildly problematic",
+    "3": "Moderately toxic",
+    "4": "Clearly toxic",
+    "5": "Severely toxic / Hate speech"
+  },
+  "training_metrics": {
+    "balanced_accuracy_train": 0.6934034639182716,
+    "balanced_accuracy_test": 0.42828197788649336
+  }
+}
