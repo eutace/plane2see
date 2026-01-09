@@ -92,16 +92,28 @@ pip install -r requirements.txt
 ```
 
 ### Key Dependencies
+
+Install the required packages:
+
+```bash
+pip install praw transformers torch bertopic scikit-learn pandas numpy matplotlib seaborn umap-learn hdbscan
+```
+
+**Or be more general** about installation:
+```markdown
+### Requirements
+Install the following dependencies using pip:
 - `praw` - Reddit API wrapper
 - `transformers` - Hugging Face transformer models
 - `bertopic` - Topic modeling framework
 - `scikit-learn` - Machine learning utilities
 - `pandas`, `numpy` - Data manipulation
 - `matplotlib`, `seaborn` - Visualization
+```
 
 ### Quick Start
 1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
+2. Install dependencies
 3. Configure Reddit API credentials in `config.py`
 4. Run data collection: `python src/data_collection/reddit_scraper.py`
 5. Execute analysis notebooks in sequence
